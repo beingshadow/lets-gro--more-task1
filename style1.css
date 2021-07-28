@@ -1,0 +1,651 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("basephoto.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.nav-link:hover {
+    color: white!important;
+}
+
+h1 {
+    margin-left: 20px;
+    padding-top: 40px;
+    line-height: 2.5;
+    text-align: left;
+    font-family: 'Sofia';
+    font-size: 22px;
+    color: white !important;
+}
+
+.header-button {
+    padding-left: 15px;
+    padding-top: 50px;
+}
+
+.center-div h1 {
+    line-height: 1.56;
+}
+
+.btn1 {
+    width: 100%;
+    text-align: center;
+    font-size: 200px;
+}
+
+.heading3 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cd1 {
+    text-align: center;
+}
+
+.cd0 {
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.center1 {
+    background-color: #F6AE99;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.card-text {
+    font-family: 'babloo bhai';
+    font-size: 20px;
+    font-style: inherit;
+    font-weight: 22px;
+}
+
+.card-text p {
+    font-family: 'poppins,san-serif';
+    color: black;
+}
+
+.heading5 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.third-section {
+    background-color: #ACFFAD;
+    width: 100hv;
+    height: 100hv;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.third-portion {
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+
+/*
+.abt
+{
+    text-align: center;
+    margin-top: 20px;
+}
+.firstpara
+{
+    text-align: center;
+    line-height: 2rem;
+    margin-top: 20px;
+    font-family: 'Baloo Bhai 2';font-size: 22px;
+
+}*/
+
+.team-boxed {
+    color: #F9F9F9;
+    background-color: #DEEEEA
+}
+
+.team-boxed p {
+    color: #F8F5F1;
+}
+
+.team-boxed h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: inherit;
+}
+
+@media (max-width:767px) {
+    .team-boxed h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px
+    }
+}
+
+.team-boxed .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto
+}
+
+.team-boxed .intro p {
+    margin-bottom: 0
+}
+
+.team-boxed .people {
+    padding: 50px 0
+}
+
+.team-boxed .item {
+    text-align: center
+}
+
+.team-boxed .item .box {
+    text-align: center;
+    padding: 30px;
+    background-color: #161616;
+    margin-bottom: 30px;
+    border-radius: 10px
+}
+
+.team-boxed .item .name {
+    font-weight: bold;
+    margin-top: 28px;
+    margin-bottom: 8px;
+    color: inherit
+}
+
+.team-boxed .item .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #d0d0d0;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.team-boxed .item .description {
+    font-size: 15px
+}
+
+.team-boxed .item img {
+    max-width: 1200px;
+}
+
+.team-boxed .social {
+    font-size: 18px;
+    color: #a2a8ae;
+}
+
+.team-boxed .social:hover {
+    font-size: 18px;
+    color: #f80808;
+}
+
+.box h3 {
+    color: white;
+    ;
+}
+
+.team-boxed .social a {
+    color: inherit;
+    margin: 0 10px;
+    display: inline-block;
+    opacity: 0.7;
+    padding: 6px
+}
+
+.team-boxed .social a:hover {
+    opacity: 1
+}
+
+.fa {
+    font-size: 28px
+}
+
+.intro h1 {
+    color: #fff
+}
+
+.intro {
+    margin-top: 23px
+}
+
+.box img {
+    cursor: pointer;
+    width: 9em
+}
+
+.description {
+    font-family: 'Prompt', sans-serif;
+    font-size: medium;
+    font-weight: 100px;
+}
+
+.fourth-section {
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+
+/*
+.wrapper {
+    height: 100vh;
+    background: #000;
+    background: url("https://images.unsplash.com/photo-1474524955719-b9f87c50ce47?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fG5hdHVyZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    width: 100%
+}
+
+.overlay {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.25)
+}
+
+.contact-us {
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.contact-us h3,
+p {
+    color: #fff
+}
+
+.address {
+    margin-top: 14px !important;
+    margin-left: 10px
+}
+
+.address span {
+    color: #7B1FA2
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.icons i {
+    font-size: 20px
+}
+
+.forms {
+    padding: 20px
+}
+
+.inputs input {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 2px solid #eee
+}
+
+.inputs input:focus {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 2px solid #7B1FA2;
+    box-shadow: none
+}
+
+.inputs textarea {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 2px solid #eee;
+    width: 100%;
+    resize: none
+}
+
+.inputs textarea:focus {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 2px solid #7B1FA2;
+    box-shadow: none;
+    resize: none
+}
+
+.form-control {
+    padding: .375rem .25rem
+}
+*/
+
+.carousel-item {
+    margin-left: 35%;
+    margin-right: 20%;
+}
+
+.extra-fifth-div {
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: #d0d0d0;
+    background-color: #F6AE99;
+}
+
+.fifth-main-heading h3 {
+    text-align: center;
+}
+
+.sixth-section {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.container1 {
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+h2 {
+    color: navy
+}
+
+.text-muted {
+    font-family: 'Ubuntu', sans-serif
+}
+
+.fa-map-marker,
+.fa-phone,
+.fa-envelope {
+    font-size: 25px;
+    font-weight: bold
+}
+
+.icon {
+    color: rgb(105, 27, 179)
+}
+
+.contact:hover {
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative
+}
+
+form .container1 {
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+input,
+textarea,
+.form-control {
+    outline: none;
+    border: none
+}
+
+.input-field {
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px
+}
+
+.input-field:hover {
+    border: 2px solid rgb(105, 27, 179);
+    color: rgb(105, 27, 179);
+    cursor: pointer
+}
+
+label {
+    font-weight: 500
+}
+
+.fa-mobile {
+    font-size: 20px
+}
+
+#msg {
+    height: 220px
+}
+
+.btn {
+    background-color: rgb(105, 27, 179);
+    color: #fff;
+    padding: 5px 10px;
+    width: 200px;
+    margin: 10px auto
+}
+
+.mobile-info {
+    display: none
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    form {
+        width: 75%
+    }
+    .container {
+        margin-top: 50px
+    }
+}
+
+@media(max-width:767px) {
+    .mobile-info {
+        display: inline
+    }
+    .contact-info {
+        display: none
+    }
+    .contact {
+        margin: 10px 0;
+        border: 1px solid rgb(105, 27, 179);
+        border-radius: 5px
+    }
+}
+
+#footer {
+    background: #404040;
+    padding: 0 0 0px 0;
+    color: black;
+    font-size: 14px
+}
+
+#footer .footer-newsletter {
+    padding: 0px 0;
+    background: blanchedalmond;
+}
+
+#footer .footer-newsletter h4 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 600
+}
+
+#footer .footer-newsletter form {
+    margin-top: 30px;
+    background: white;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px
+}
+
+#footer .footer-newsletter form input[type="email"] {
+    border: 0;
+    padding: 8px;
+    width: calc(100% - 140px)
+}
+
+#footer .footer-newsletter form input[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 30px;
+    margin: 3px;
+    background: #e96b56;
+    color: black;
+    transition: 0.3s;
+    border-radius: 50px
+}
+
+#footer .footer-newsletter form input[type="submit"]:hover {
+    background: #e6573f
+}
+
+#footer .footer-top {
+    background: blanchedalmond;
+    border-top: 1px solid blanchedalmond;
+    border-bottom: 1px solid blanchedalmond;
+    padding: 0px 0 0px 0
+}
+
+#footer .footer-top .footer-info {
+    margin-bottom: 30px
+}
+
+#footer .footer-top .footer-info h3 {
+    font-size: 18px;
+    margin: 0 0 20px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700
+}
+
+#footer .footer-top .footer-info p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+    color: black;
+}
+
+#footer .footer-top .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: blanchedalmond;
+    color: black;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s
+}
+
+#footer .footer-top .social-links a:hover {
+    background: #e96b56;
+    color: black;
+    text-decoration: none
+}
+
+#footer .footer-top h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 12px
+}
+
+#footer .footer-top .footer-links {
+    margin-bottom: 30px
+}
+
+#footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+#footer .footer-top .footer-links ul i {
+    padding-right: 2px;
+    color: #ec7f6d;
+    font-size: 18px;
+    line-height: 1
+}
+
+#footer .footer-top .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0
+}
+
+#footer .footer-top .footer-links ul a {
+    color: black;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1
+}
+
+#footer .footer-top .footer-links ul a:hover {
+    color: #e96b56
+}
+
+#footer .footer-top .footer-contact {
+    margin-bottom: 30px
+}
+
+#footer .footer-top .footer-contact p {
+    line-height: 26px
+}
+
+#footer .copyright {
+    text-align: center;
+    padding-top: 30px
+}
+
+#footer .credits {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: blanchedalmond;
+}
+
+.col-lg-3 h4 {
+    color: #161616;
+}
+
+.sixth-section {
+    background-color: blanchedalmond;
+}
+
+.fourth-section {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.fifth-section {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.extra-fifth-div {
+    margin-top: 10px;
+    padding-top: 10px;
+}
